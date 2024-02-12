@@ -1,2 +1,0 @@
-# psurveeee
-JUST BE HONEST AS POSSIBLE
