@@ -1,4 +1,4 @@
-#pyramid with ascending numbers(PART 1)
+#pyramid with ascending numbers
 rows = 8
 for i in range(1, rows+1):  
     for j in range(1, i + 1):  
@@ -6,7 +6,7 @@ for i in range(1, rows+1):
     print('')  
 
 
-# number pyramid with diamond shape(PART 2)
+# number pyramid with diamond shape
 row = 15
 for i in range(1, row + 1):
   print(" " * (row - i), end="")
