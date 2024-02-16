@@ -1,15 +1,20 @@
-#pyramid with ascending numbers
-rows = 8
-for i in range(1, rows+1):  
-    for j in range(1, i + 1):  
-        print(j, end=' ')  
-    print('')  
+#Simple Ascending Number Pyramid Pattern
+def pattern(n):
+     
+    row = 1
+    for i in range(0, n):
+        row = 1
+        for j in range(0, i+1):    
+            print(row, end=" ")
+            row = row + 1
+        print("\r")
+n = 5
+pattern(n)
 
-
-# number pyramid with diamond shape
-row = 15
+#Pyramid Number with Diamond Shape
+row = 5
 for i in range(1, row + 1):
-  print(" " * (row - i), end="")
+    print(" " * (row - i), end="")
     for k in range(1, i * 2):
         print(k, end="")
     print()
