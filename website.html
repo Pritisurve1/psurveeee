@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skyline Bhayandar 1, 2 & 3 BHK Property</title>
+<link rel="stylesheet" href="css/mystyle.css">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<body>
+</head>
+
+  <div id="contact-form" class="contact-form">
+    <div class="contact-form-header">
+      <h2>Contact Us</h2>
+      <button id="close-button" class="close-button">Close</button>
+    </div>
+    <form id="contact-form-content">
+      <label for="name">Full Name: <em style="color: red;">*</em></label>
+      <input placeholder="Your Name..." type="text" id="name" name="name" required>
+      <label for="email">Email ID: <em style="color: red;">*</em></label>
+      <input placeholder="Email ID..." type="email" id="email" name="email" required>
+      <label for="phone">Phone Number: <em style="color: red;">*</em></label>
+      <input placeholder="Your Number..."type="tel" id="phone" name="phone" required  pattern="[0-9]{10}">
+     
+      <label for="message">Message:</label>
+      <textarea placeholder="Write Query..." id="message" name="message" required></textarea>
+      <button id="submit-button" type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script>
+    const closeButton = document.getElementById('close-button');
+    const contactForm = document.getElementById('contact-form');
+    const contactFormContent = document.getElementById('contact-form-content');
+    const submitButton = document.getElementById('submit-button');
+
+    closeButton.addEventListener('click', () => {
+      contactForm.style.display = 'none';
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        contactForm.style.display = 'block';
+        closeButton.style.display = 'none';
+      }, 3000);
+    });
+
+    submitButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const phone = document.getElementById('phone').value;
+      const message = document.getElementById('message').value;
+
+      if (name && email && message) {
+        // Submit the form data to your server or API
+        console.log('Form submitted successfully!');
+        contactForm.style.display = 'none';
+      } else {
+        alert('Please fill out all fields!');
+      }
+    });
+  </script>   
+<header>
+<nav>
+<ul>
+<li><a href="#Home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#configuration">Configuration</a></li>
+<li><a href="#amenities">Amenities</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#connectivity">Connectivity</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+</header>
+<main>
+  
+<section id="Home" style="background-image: url('img/background1.jpeg'); background-size: cover; background-position: center; height: 100vh;">
+  <img src="img/skylinelogo.jpeg" alt="Logo" class="logo"  style="margin-top: 10px" width="70" height="50">
+  
+<div class="Container">
+<h1 style="color: #fffffe; font-size: 10vh;">Discover Luxurious Living Flat's in Skyline Bhayandar West</h1>
+</div> 
+</section>
+
+<section id="about">
+<div class="container">
+  <h1>About Us</h1>
+  <p>Welcome to Skyline Residential Project in Bhayandar West. It's offers a range of apartment options that are designed to cater to the diverse needs of homebuyers. These flats are available in configurations such as <b>1BHK, 2BHK, 3BHK and Jodi Flats</b>. All the apartments are thoughtfully crafted to maximize the available area and ensure optimum utilization of space. The flats are also designed to let in ample natural light and ventilation.</p>
+  <h3>Thoughtfully Designed to Maximize Space and Comfort</h3>
+  <p>Every property should, in the opinion of Skyline, reflect the individuality and flair of its owner. Our flats are made to guarantee the best possible use of space and to make the most of the available area. Our apartments provide a healthy, cozy living space with lots of natural light and ventilation, making them ideal for rest and renewal.</p>
+  <h3>Experience the Skyline Difference</h3>
+  <p>Our goal at Skyline Residential Project is to give our tenants the best possible living environment in Bhayandar West. We're sure you'll adore living at Skyline because of our opulent apartments, cutting-edge features, and prime location.</p>
+  <h3>Amenities and Features</h3>
+  <p>having with <b>52+ top-notch amenities</b>, you can live the ultimate in luxury. They are created to improve your lifestyle and offer unmatched comfort and convenience.</p>
+  <h3>Location</h3>
+  <p>Bhayandar West: Our project is conveniently close to hospitals, schools, colleges, and commercial malls.</p>
+</div>
+</section>
+</ul>
+
+<section id="configuration">
+    <div class="container">
+    <h1>Configuration</h1>
+    <p> A Variety of Roomy Living Areas and Elegantly Furnished Bedrooms According to Your Choice Visit Us</p>
+    <div class="configuration-section">
+     
+      <div class="configuration-images">
+        <a href="https://skylinebhayandar.com/contact.html">
+        <img src="img/1bhk.png" alt="1BHK"></a>
+        <a href="https://skylinebhayandar.com/contact.html">
+        <img src="img/2bhk.png" alt="2BHK"></a>
+        <a href="https://skylinebhayandar.com/contact.html">
+        <img src="img/3bhk.png" alt="3BHK"></a>
+      </div>
+      <div class="brochure-container">
+      <div class="container">
+      
+        <a href="file:///C:/Users/Admin/Desktop/website/brochure/brochure.pdf" download="Company Brochure">
+          <button class="download-brochure">Download Brochure<span class="pdf-icon">PDF</span>
+  
+          </button>
+        </a>
+      </div>
+    </div> 
+    </div>
+    </div>
+   
+    </section>
+    <section id="amenities">
+        <div class="container">
+                        <h2>Discover Our Luxurious Amenities</h2>
+                        <p>Picture a life where you can take use of a variety of facilities and pursuits, such as lounging by the pool or working out at the gym, enjoying excellent dining at our rooftop restaurant or treating yourself to a variety of spa services. With everything you need close by, our community is built to make your life more enjoyable, exciting, and rewarding.</p>
+                    <div class="amenities-grid">
+                        <div class="amenity">
+                        <img src="img/amen.png" alt="Amenities">
+            
+                </div>
+                  </div>
+        </div>
+        </section>
+        
+        
+        <section id="gallery">
+          <h1>Gallery</h1>
+            <div class="container">
+            <a target="_blank" href="img/img5.jpeg">
+                <img src="img/img5.jpeg" alt="floor" width="200" height="300">
+            </div> 
+            <div class="container"> 
+            <a target="_blank" href="img/img4.jpeg">
+              <img src="img/img4.jpeg" alt="floor" width="200" height="300">
+          </div> 
+          <div class="container">   
+            <a target="_blank" href="img/img3.jpeg">
+            <img src="img/img3.jpeg" alt="floor"width="200" height="300">
+        </div> 
+        <div class="container">
+          <a target="_blank" href="img/img2.jpeg">
+          <img src="img/img2.jpeg" alt="floor" width="200" height="300">
+      </div> 
+      <div class="container"> 
+        <a target="_blank" href="img/img1.jpeg">
+        <img src="img/img1.jpeg" alt="floor" width="200" height="300">
+    </div> 
+    <div class="container">
+      <a target="_blank" href="img/img6.jpeg">
+          <img src="img/img6.jpeg" alt="floor" width="200" height="300">
+      </div> 
+      <div class="container">
+        <a target="_blank" href="img/img7.jpeg">
+            <img src="img/img7.jpeg" alt="floor" width="200" height="300">
+        </div> 
+        <div class="container">
+          <a target="_blank" href="img/img8.jpeg">
+              <img src="img/img8.jpeg" alt="floor" width="200" height="300">
+          </div> 
+          <div class="container">
+            <a target="_blank" href="img/img9.jpeg">
+                <img src="img/img9.jpeg" alt="floor" width="200" height="300">
+            </div> 
+            <div id="lightbox" class="lightbox">
+              <div class="lightbox-content">
+                <span class="close">&times;</span>
+                <img class="lightbox-image" src="" alt="">
+              </div>
+            </div>
+    </section>
+
+    <section id="connectivity">
+      <div class="container">
+                      
+                     <h1>Connectivity</h1>
+                      <div class="amenity">
+                      <img src="img/connect.png" alt="connectivity">
+          
+              </div>
+                </div>
+    
+      </section>
+
+
+        <section id="contact">
+  <div class="container">
+    <h1 style="color: black;">Contact Details</h1>
+    <p style="color: black;">Ground Floor, Tirupati Heights, Maheshwari Bhawan Road, Link Road, <b>Bhaynadar West Thane: 401101</b></p>
+    <b style="color: black;">Phone NO: +91 22222 55555</b> 
+  </div>
+</section>
+
+</main>
+<footer>
+  <p style="color: white;">Privacy Policy   © Skyline Bhayandar West.</p>
+</footer>
+<!-- whatsapp -->
+<a
+href="https://wa.me/+91 22222 55555"
+class="whatsapp_float"
+target="_blank"
+rel="noopener noreferrer"
+>
+<i class="fa fa-whatsapp whatsapp-icon"></i>
+</a>
+</body>
+</html>
